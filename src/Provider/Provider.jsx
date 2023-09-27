@@ -10,7 +10,7 @@ const Provider = ({ children }) => {
 			enableSystem={false}
 			attribute='class'
 		>
-			{children}
+			<div className="">{children}</div>
 		</ThemeProvider>
 	);
 };
